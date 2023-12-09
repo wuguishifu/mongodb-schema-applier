@@ -1,0 +1,22 @@
+{
+  "name": "@wuguishifu/mongodb-schema-applier",
+  "author": "Bo Bramer (bbramer@uci.edu)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuguishifu/mongodb-schema-applier.git"
+  },
+  "version": "1.0.0",
+  "description": "An app to deploy schemas to a MongoDB database",
+  "main": "./index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "js-yaml": "^4.1.0",
+    "mongodb": "^6.3.0",
+    "typescript": "^5.3.3"
+  }
+}

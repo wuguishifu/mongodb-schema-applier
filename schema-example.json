@@ -1,0 +1,38 @@
+{
+    "collections": {
+        "my-collection": {
+            "indexes": [
+                {
+                    "field": "myUniqueIndex",
+                    "type": "default",
+                    "indexSpec": {
+                        "pattern": 1
+                    }
+                },
+                {
+                    "field": "myCompoundIndex",
+                    "type": "compound",
+                    "indexSpec": {
+                        "myCompoundIndex": 1,
+                        "mySecondField": 1
+                    }
+                },
+                {
+                    "field": "mySparseIndex",
+                    "type": "sparse",
+                    "indexSpec": {
+                        "pattern": 1
+                    }
+                },
+                {
+                    "field": "myTTLIndex",
+                    "type": "ttl",
+                    "indexSpec": {
+                        "pattern": 1,
+                        "expiresAfterSeconds": 3600
+                    }
+                }
+            ]
+        }
+    }
+}
